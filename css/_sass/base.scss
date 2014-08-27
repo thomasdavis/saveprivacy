@@ -68,9 +68,6 @@ body {
   background: #f3f3f3;
   color: darken($brand4, 10%);
 }
-body a {
-  color: darken($brand4, 10%);
-}
 section {
 padding: 40px 0;
 }
@@ -218,6 +215,9 @@ section.video {
   padding: 150px 0;
   font-family: 'Source Sans Pro', sans-serif;
 
+}
+.discussion {
+  background: #f3f3f3;
 }
 .legislator {
   margin-bottom: 20px;
