@@ -3,7 +3,7 @@ $brand1:        #E7E8D1 !default;
 $brand2:        #D3CEAA !default;
 $brand3:        #FBF7E4 !default;
 $brand4:        #424242 !default;
-$brand5:        #F15B35 !default;
+$brand5:        #f15b35 !default;
 
 //------------------------------------------------------------------------------
 
@@ -376,10 +376,13 @@ section.video {
     }
 }
 .btn-primary {
+  background-color: lighten($brand5, 5%) !important;
   border-color: lighten($brand5, 5%) !important;
 }
 
-
+.whattodo h3 {
+  text-decoration: underline;
+}
 .postcode-steps {
   overflow: hidden;
 
