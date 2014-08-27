@@ -3,7 +3,7 @@ $brand1:        #E7E8D1 !default;
 $brand2:        #D3CEAA !default;
 $brand3:        #FBF7E4 !default;
 $brand4:        #424242 !default;
-$brand5:        #f1592a !default;
+$brand5:        #F15B35 !default;
 
 //------------------------------------------------------------------------------
 
@@ -409,3 +409,8 @@ section.video {
   margin-right: 10px;
 }
 
+
+
+.logo img {
+	max-width: 100%;
+}
