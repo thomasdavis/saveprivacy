@@ -1,9 +1,9 @@
 # Site settings
-title: Stop The Spies
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Stop The Spies - Launching soon - Spread the word
+email: admin@stopthespies.org
+description: "Stop The Spies is an Australian campaign against mass surveillance. Currently the campaign is looking to build momentum before launching in late September."
 baseurl: ""
-url: "http://yourdomain.com"
+url: "https://stopthespies.org"
 twitter_username: jekyllrb
 github_username:  jekyll
 
