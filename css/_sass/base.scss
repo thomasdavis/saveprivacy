@@ -417,3 +417,104 @@ section.video {
 .logo img {
 	max-width: 100%;
 }
+
+// Social buttons
+
+.share-buttons {
+        height: 100px;
+        margin-bottom: 50px;
+        display: none;
+}
+.share-buttons a {
+        margin:4px;
+        width:54px;
+        height:54px;
+        z-index: 0;
+        margin-top: 40px;
+}
+.floating-share {
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+}
+@media all and (min-width: 992px) {
+    .floating-share .share-buttons {
+        display: block;
+    }
+}
+@media all and (max-width: 991px) {
+    #call .share-buttons {
+        display: block;
+        margin-top: 50px;
+    }
+}
+.sicon {
+        float: left;
+        width:54px;
+        height:54px;
+        background-color:black;
+        background-image: url("../img/social-icons.png");
+}
+.share-buttons .sicon {
+        margin-top: 2px;
+}
+#sfb {
+        background-position:70% 0 ;
+}
+
+#sfb:hover {
+        opacity:0.8;
+}
+
+#stwit {
+        background-position:50% 0 ;
+}
+
+#stwit:hover {
+        opacity:0.8;
+}
+
+#sgplus{
+        background-position:20% 0 ;
+}
+#sgplus:hover{
+        opacity:0.8;
+}
+
+.social-count {
+        display: inline-block;
+        position: relative;
+}
+
+.social-count:after {
+        background: #fff;
+        border: 1px solid #efefef;
+        border-radius: 2px;
+        top: -40px;
+        color: #444;
+        content: attr(count);
+
+        display: block;
+        left: 0px;
+        width: 54px;
+        padding: 5px;
+        text-align: center;
+        position: absolute;
+        text-shadow: 0 1px 0 #000;
+        white-space: nowrap;
+}
+
+.social-count:before {
+        border: solid;
+        border: 1px solid #fff;
+        border-color: #111 transparent;
+        border-color: #fff transparent;
+        border-width: .4em .4em 0 .4em;
+        top: -4px;
+        content: "";
+        display: block;
+        left: 22px;
+        position: absolute;
+}
